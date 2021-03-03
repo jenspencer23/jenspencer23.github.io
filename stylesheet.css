@@ -1,0 +1,168 @@
+*
+	{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	}
+
+nav
+	{
+	font-family: cubano,sans-serif;
+	font-size: 20px;
+	}
+a.dropbtn, a.nav-link{
+	line-height: 150px;
+}
+
+	body
+	{
+		font-family: trade-gothic-next, sans-serif;
+		background-color: #ffffff;
+
+	}
+
+.container {
+	width: 75%;
+	margin: 0 auto;
+}
+
+.logo {
+	width: 150px;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 25px;
+	align: center;
+	padding-left: 30px;
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+
+.row:after {
+  content: "";
+  clear: both;
+  display: table;
+	width: 100%;
+}
+
+.clearfix:after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: rgb(251, 247, 235);
+}
+
+li {
+	float: left;
+}
+
+li a, .dropbtn {
+	display: inline-block;
+	color: rgb(223, 120, 97);
+	text-align: center;
+	text-decoration: none;
+	font-size: 1.5em;
+	padding: 0.8em 1em;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+	color: rgb(75, 72, 104);
+	transition: 0.1s ease-in;
+}
+
+li.dropdown {
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: rgb(251, 247, 235);
+	z-index: 1;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+	color: rgb(213, 226, 212);
+	padding: 12px 6px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.column {
+	background-color: #ffffff;
+}
+
+h1 {
+	background-color: none;
+
+}
+
+.header {
+	font-family: cubano,sans-serif;
+	color: white;
+	font-size: 30px;
+	text-align: left;
+}
+
+.author{
+	font-family: trade-gothic-next,sans-serif;
+	color: rgb(223, 120, 97);
+	margin-bottom: 100px;
+	font-size: 20px;
+}
+
+.article {
+	font-family: trade-gothic-next,sans-serif;
+	color: white;
+	margin-bottom: 100px;
+	font-size: 20px;
+}
+
+.article button {
+  border: none;
+  outline: 0;
+  padding: 10px;
+  color: white;
+  background-color: rgb(223, 120, 97);
+  text-align: center;
+  cursor: pointer;
+  width: 10%;
+  font-size: 15px;
+}
+
+.article button:hover {
+  background-color: rgb(213, 226, 212);
+}
+
+p {
+		background-color: rgb(75, 72, 104)
+}
+
+
+
+.blog {
+	background-color: rgb(75, 72, 104)
+	padding: 20px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
